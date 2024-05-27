@@ -15,7 +15,7 @@
 		<div class="row bg-light">
 			<div class="col-12">
 					<div class="float-left">
-						<a class="nav-link active" aria-current="page" href="#">Active</a>
+						<a class="nav-link" aria-current="page" href="#">Active</a>
 					</div>
 					<div class="float-right dropdown">
 					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,31 +32,41 @@
 					</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12">
-				<div class="card mx-auto mb-3">
-					<div class="card-header">
-						<span class="float-left">Header</span><span class="float-right">date</span>
-					</div>
-					<img src="https://placehold.co/600x600">
-					<div class="card-body">
-						<h6>(number of like) likes</h6>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa, eum praesentium vel blanditiis explicabo ipsam sunt rerum in suscipit dolorem illo sequi laborum quos commodi mollitia necessitatibus veritatis? Totam.
-						</p>
+		<ul class="nav nav-tabs">
+		<li class="active"><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+		<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+		</ul>
+		<div class="tab-content">
+		<div class="tab-pane fade in show active" id="menu1">
+			<div class="row">
+				<div class="col-12">
+					<div class="card mx-auto mb-3">
+						<div class="card-header">
+							<span class="float-left">Header</span><span class="float-right">date</span>
+						</div>
+						<img src="https://placehold.co/600x600">
+						<div class="card-body">
+							<h6>(number of like) likes</h6>
+							<p>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsa, eum praesentium vel blanditiis explicabo ipsam sunt rerum in suscipit dolorem illo sequi laborum quos commodi mollitia necessitatibus veritatis? Totam.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-4">
-				<img class="img-responsive" src="https://placehold.co/600x600">
+		<div class="tab-pane fade" id="menu2">
+			<div class="row">
+				<div class="col-4">
+					<img class="img-responsive" src="https://placehold.co/600x600">
+				</div>
+				<div class="col-4">
+					<img class="img-responsive" src="https://placehold.co/600x600">
+				</div>
+				<div class="col-4">
+					<img class="img-responsive" src="https://placehold.co/600x600">
+				</div>
 			</div>
-			<div class="col-4">
-				<img class="img-responsive" src="https://placehold.co/600x600">
-			</div>
-			<div class="col-4">
-				<img class="img-responsive" src="https://placehold.co/600x600">
 			</div>
 		</div>
 	</div>
